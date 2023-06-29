@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import { FaInstagram } from 'react-icons/fa'
 
 import Logo from '../assets/logo.png'
 
@@ -7,7 +8,7 @@ export function Footer() {
   const liClass = 'text-sm text-text-light transition hover:text-primary'
 
   return (
-    <footer className="grid place-items-center p-10">
+    <footer className="grid place-items-center p-8">
       <div className="grid place-items-center">
         <Image src={Logo} alt="Logo Leadster" className="w-48" />
         <span className="mt-1 text-xs text-text-light">
@@ -70,11 +71,28 @@ export function Footer() {
           <li className="mb-5 font-bold text-text-dark transition hover:text-primary">
             <Link href="#">Siga a Leadster</Link>
           </li>
-          <li className="text-sm text-text-light transition hover:text-primary">
-            <Link href="#">Blog</Link>
-          </li>
-          <li className={`${liClass}`}>
-            <Link href="#">Parceria</Link>
+          <li className="flex items-center gap-3 font-bold text-text-light">
+            <Link
+              href="#"
+              title="Linkedin"
+              className="grid h-10 w-10 place-items-center rounded-full bg-bg-gray transition hover:brightness-90"
+            >
+              in
+            </Link>
+            <Link
+              href="#"
+              title="Facebok"
+              className="grid h-10 w-10 place-items-center rounded-full bg-bg-gray transition hover:brightness-90"
+            >
+              f
+            </Link>
+            <Link
+              href="#"
+              title="Instagram"
+              className="grid h-10 w-10 place-items-center rounded-full bg-bg-gray transition hover:brightness-90"
+            >
+              <FaInstagram />
+            </Link>
           </li>
           <li className="text-sm font-medium text-text-dark">
             <span>
