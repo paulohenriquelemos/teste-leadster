@@ -14,6 +14,9 @@ module.exports = {
         'text-dark': '#1c3c50',
         'text-light': '#647598',
       },
+      fontFamily: {
+        sans: ['var(--font-jakarta)'],
+      },
     },
   },
   plugins: [],
