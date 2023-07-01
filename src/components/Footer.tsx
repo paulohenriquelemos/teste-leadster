@@ -15,7 +15,7 @@ export function Footer() {
           Transformando visitantes em clientes
         </span>
       </div>
-      <div className="container mt-6 flex flex-wrap justify-between gap-8">
+      <div className="container mt-6 flex flex-wrap justify-between gap-8 border-b pb-12">
         <ul className="flex flex-col gap-1.5">
           <li className="mb-5 font-bold text-text-dark transition hover:text-primary">
             <Link href="#">Links Principais</Link>
@@ -121,6 +121,18 @@ export function Footer() {
             </span>
           </li>
         </ul>
+      </div>
+      <div className="container flex flex-wrap items-center justify-center gap-3 pb-4 pt-12 lg:justify-between">
+        <span className="text-[0.8125rem] text-text-light">
+          Copyright © 2015 - 2023 Todos os direitos reservados |{' '}
+          <a href="#" className="text-primary transition hover:brightness-75">
+            Leadster
+          </a>
+        </span>
+        <span className="text-[0.8125rem] text-text-light">
+          Rua José Loureiro, 464 - Centro - Curitiba PR - CEP: 80010-000 |
+          Termos de uso
+        </span>
       </div>
     </footer>
   )
