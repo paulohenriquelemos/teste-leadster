@@ -28,7 +28,7 @@ export function Section03() {
           <div className="mt-5 flex flex-col items-center justify-center gap-4 sm:flex-row lg:justify-start">
             <Link
               href="#"
-              className="grid h-full place-items-center rounded-full bg-primary px-6 py-4 text-sm font-bold uppercase text-white"
+              className="grid h-full place-items-center rounded-full bg-primary px-6 py-4 text-sm font-bold uppercase text-white transition hover:brightness-110"
             >
               ver demonstração
             </Link>
