@@ -22,3 +22,47 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
+
+section .swiper {
+  padding: 2rem 0;
+}
+
+.swiper .swiper-wrapper {
+  padding-bottom: 2rem;
+}
+
+.swiper .swiper-pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper .swiper-pagination::before {
+  content: 'Página';
+  margin-right: 0.5rem;
+  color: #1c3c50;
+  font-weight: bold;
+}
+
+.swiper-pagination .swiper-pagination-bullet:only-child {
+  display: block !important;
+}
+.swiper-pagination .swiper-pagination-bullet {
+  width: 1.75rem;
+  height: 1.75rem;
+  text-align: center;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  color: #1c3c50;
+  opacity: 1;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background: #fff;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active,
+.swiper-pagination .swiper-pagination-bullet:hover {
+  color: #0084ff;
+  border-color: #0084ff;
+  font-weight: bold;
+}
