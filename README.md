@@ -18,6 +18,6 @@
 
 <p align="justify">O projeto consiste na criação de uma landing page com o framework NextJS utilizando um arquivo JSON com o conteúdo do modal.</p>
 
-<p>Este projeto por ter o layout como imagem, teve alguns desafios como saber os tamanhos das fontes, espaçamentos entre os elementos e responsividade. Também foi um pequeno desafio fazer os filtros serem funcionais, mas foi bem prazeroso de ser finalizado.</p>
+<p>Este projeto por ter o layout como imagem, teve alguns desafios como saber os tamanhos das fontes, espaçamentos entre os elementos e responsividade. Também foi um pequeno desafio fazer os filtros serem funcionais, mas foi bem prazeroso de ser finalizado. O projeto levou em torno de 10 horas para ser concluído.</p>
 
 <img align="center"  style="border-radius: 20px;" src="./src/assets/layout.png">
