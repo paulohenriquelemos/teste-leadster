@@ -6,6 +6,12 @@
 
 <br>
 
+<h2> Deploy </h2>
+
+[Clique aqui](https://teste-leadster-zeta.vercel.app) para abrir.
+
+<br>
+
 <h2>👩‍💻 Tecnologias</h2>
 
 ![React Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
