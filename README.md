@@ -1,38 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">Teste Leadster</h1>
 
-## Getting Started
+<br>
 
-First, run the development server:
+<p>Este projeto foi desenvolvido pela Leadster para o teste front-end.</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+<br>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>👩‍💻 Tecnologias</h2>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+![React Badge](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![TS Badge](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<br>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+<h2>📱 Projeto</h2>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p align="justify">O projeto consiste na criação de uma landing page com o framework NextJS utilizando um arquivo JSON com o conteúdo do modal.</p>
 
-## Learn More
+<p>Este projeto por ter o layout como imagem, teve alguns desafios como saber os tamanhos das fontes, espaçamentos entre os elementos e responsividade. Também foi um pequeno desafio fazer os filtros serem funcionais, mas foi bem prazeroso de ser finalizado.</p>
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<img align="center"  style="border-radius: 20px;" src="./src/assets/layout.png">
