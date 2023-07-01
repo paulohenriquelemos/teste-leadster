@@ -13,6 +13,8 @@ module.exports = {
         'bg-gray': '#f7f8fb',
         'text-dark': '#1c3c50',
         'text-light': '#647598',
+        green: '#00b386',
+        yellow: '#a99345',
       },
       fontFamily: {
         sans: ['var(--font-jakarta)'],
